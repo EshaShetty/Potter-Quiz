@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>choices</key>
+		<array>
+			<string>Cloak of invisibility</string>
+			<string>Resurrection Stone</string>
+			<string>Elder Wand</string>
+			<string>Sorcers Stone</string>
+		</array>
+		<key>answer</key>
+		<string>Cloak of invisibility</string>
+		<key>question</key>
+		<string>Which Hallow does Harry get on Xmas?</string>
+	</dict>
+	<dict>
+		<key>choices</key>
+		<array>
+			<string>Hogs head Inn</string>
+			<string>Leaky Caludron</string>
+			<string>Three Broomsticks</string>
+			<string>Honey Dukes</string>
+		</array>
+		<key>answer</key>
+		<string>Hogs head Inn</string>
+		<key>question</key>
+		<string>What property does Aberforth own ?</string>
+	</dict>
+	<dict>
+		<key>choices</key>
+		<array>
+			<string>Mermish</string>
+			<string>Parseltongue</string>
+			<string>Elfish</string>
+			<string>Troll</string>
+		</array>
+		<key>answer</key>
+		<string>Parseltongue</string>
+		<key>question</key>
+		<string>Which language is Harry able to speak?</string>
+	</dict>
+	<dict>
+		<key>choices</key>
+		<array>
+			<string>Ginny Weasley</string>
+			<string>Hermione Granger</string>
+			<string>Cho Chang</string>
+			<string>Luna Lovegood</string>
+		</array>
+		<key>answer</key>
+		<string>Luna Lovegood</string>
+		<key>question</key>
+		<string>Whose patronus resembled a hare?</string>
+	</dict>
+	<dict>
+		<key>choices</key>
+		<array>
+			<string>Toad</string>
+			<string>Chicken</string>
+			<string>Spider</string>
+			<string>Rooster</string>
+		</array>
+		<key>answer</key>
+		<string>Rooster</string>
+		<key>question</key>
+		<string>Which animal is fatal to a Basilisk?</string>
+	</dict>
+	<dict>
+		<key>choices</key>
+		<array>
+			<string>Alohomora</string>
+			<string>Stupify</string>
+			<string>Avada Ke Davra</string>
+			<string>Levicorpus</string>
+		</array>
+		<key>answer</key>
+		<string>Stupify</string>
+		<key>question</key>
+		<string>Which curse stuns objects/living ?</string>
+	</dict>
+	<dict>
+		<key>choices</key>
+		<array>
+			<string>Arabella Figg</string>
+			<string>Angus Buchanan</string>
+			<string>Marius Black</string>
+			<string>Argus Filch</string>
+		</array>
+		<key>answer</key>
+		<string>Arabella Figg</string>
+		<key>question</key>
+		<string>Which squib testifies at Harry&apos;s trial?</string>
+	</dict>
+	<dict>
+		<key>choices</key>
+		<array>
+			<string>Bellatrix Lestrange</string>
+			<string>Lucius Malfoy</string>
+			<string>Bathilda Bagshot</string>
+			<string>Bartemious Crouch, Jr</string>
+		</array>
+		<key>answer</key>
+		<string>Bathilda Bagshot</string>
+		<key>question</key>
+		<string>Who was NOT a Death Eater?</string>
+	</dict>
+	<dict>
+		<key>choices</key>
+		<array>
+			<string>George</string>
+			<string>Percy</string>
+			<string>Bill</string>
+			<string>Charlie</string>
+		</array>
+		<key>answer</key>
+		<string>Charlie</string>
+		<key>question</key>
+		<string>Which Weasley went to study dragons?</string>
+	</dict>
+	<dict>
+		<key>choices</key>
+		<array>
+			<string>Harry Potter</string>
+			<string>Lord Voldemort</string>
+			<string>Neville Longbottom</string>
+			<string>Ron Weasley</string>
+		</array>
+		<key>answer</key>
+		<string>Neville Longbottom</string>
+		<key>question</key>
+		<string>Who destroyed the last horcrux?</string>
+	</dict>
+	<dict>
+		<key>choices</key>
+		<array>
+			<string>Beetle</string>
+			<string>Dog</string>
+			<string>Wolf</string>
+			<string>Mouse</string>
+		</array>
+		<key>answer</key>
+		<string>Beetle</string>
+		<key>question</key>
+		<string>What&apos;s Skeeter&apos;s Animagus form?</string>
+	</dict>
+	<dict>
+		<key>choices</key>
+		<array>
+			<string>Stupify, Levicorpus, Incendio</string>
+			<string>Avada Kedavra, Crucio and Imperio
+Avada Kedavra, Crucio and Imperio
+</string>
+			<string>Reducto, Incarcerous and Incendio</string>
+			<string>Expelliarmus, Alohomora and Diffindo</string>
+		</array>
+		<key>answer</key>
+		<string>Avada Kedavra, Crucio and Imperio
+Avada Kedavra, Crucio and Imperio
+Avada Kedavra, Crucio and Imperio
+Avada Kedavra, Crucio and Imperio
+</string>
+		<key>question</key>
+		<string>Which are the Unforgivable Curses?</string>
+	</dict>
+</array>
+</plist>

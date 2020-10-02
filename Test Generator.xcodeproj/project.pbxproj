@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC380D8A2383F1F00031B58D /* Questionaire.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC380D892383F1F00031B58D /* Questionaire.plist */; };
+		FC380D8C2383F6CF0031B58D /* QuestionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC380D8B2383F6CF0031B58D /* QuestionsController.swift */; };
+		FC380D9023843AF90031B58D /* QuestionSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC380D8F23843AF90031B58D /* QuestionSet.swift */; };
 		FC915C5023827B2E00621897 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC915C4F23827B2E00621897 /* AppDelegate.swift */; };
 		FC915C5223827B2E00621897 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC915C5123827B2E00621897 /* SceneDelegate.swift */; };
 		FC915C5423827B2E00621897 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC915C5323827B2E00621897 /* ViewController.swift */; };
@@ -16,7 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FC915C4C23827B2E00621897 /* Test Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC380D892383F1F00031B58D /* Questionaire.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Questionaire.plist; sourceTree = "<group>"; };
+		FC380D8B2383F6CF0031B58D /* QuestionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsController.swift; sourceTree = "<group>"; };
+		FC380D8F23843AF90031B58D /* QuestionSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionSet.swift; sourceTree = "<group>"; };
+		FC915C4C23827B2E00621897 /* Potter Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Potter Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC915C4F23827B2E00621897 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC915C5123827B2E00621897 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FC915C5323827B2E00621897 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +54,7 @@
 		FC915C4D23827B2E00621897 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FC915C4C23827B2E00621897 /* Test Generator.app */,
+				FC915C4C23827B2E00621897 /* Potter Quiz.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,8 +64,11 @@
 			children = (
 				FC915C4F23827B2E00621897 /* AppDelegate.swift */,
 				FC915C5123827B2E00621897 /* SceneDelegate.swift */,
+				FC380D892383F1F00031B58D /* Questionaire.plist */,
 				FC915C5323827B2E00621897 /* ViewController.swift */,
 				FC915C5523827B2E00621897 /* Main.storyboard */,
+				FC380D8B2383F6CF0031B58D /* QuestionsController.swift */,
+				FC380D8F23843AF90031B58D /* QuestionSet.swift */,
 				FC915C5823827B3000621897 /* Assets.xcassets */,
 				FC915C5A23827B3000621897 /* LaunchScreen.storyboard */,
 				FC915C5D23827B3000621897 /* Info.plist */,
@@ -84,7 +93,7 @@
 			);
 			name = "Test Generator";
 			productName = "Test Generator";
-			productReference = FC915C4C23827B2E00621897 /* Test Generator.app */;
+			productReference = FC915C4C23827B2E00621897 /* Potter Quiz.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC915C5C23827B3000621897 /* LaunchScreen.storyboard in Resources */,
+				FC380D8A2383F1F00031B58D /* Questionaire.plist in Resources */,
 				FC915C5923827B3000621897 /* Assets.xcassets in Resources */,
 				FC915C5723827B2E00621897 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC380D9023843AF90031B58D /* QuestionSet.swift in Sources */,
 				FC915C5423827B2E00621897 /* ViewController.swift in Sources */,
 				FC915C5023827B2E00621897 /* AppDelegate.swift in Sources */,
 				FC915C5223827B2E00621897 /* SceneDelegate.swift in Sources */,
+				FC380D8C2383F6CF0031B58D /* QuestionsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +303,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Esha.Test-Generator";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Potter Quiz";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -308,7 +320,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Esha.Test-Generator";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Potter Quiz";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
